@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h2>Bookmarker</h2>
+        <hr />
+      </div>
+    </header>
+    <div class="container">
+      <div class="content">
+        <h2>Bookmark your favorite sites</h2>
+        <p>Site Name</p>
+
+        <!-- <form> -->
+        <input
+          id="siteName"
+          placeholder="Bookmark Name"
+          type="text"
+          class="form-control w-75 m-auto"
+          name="sitename"
+          required
+        />
+        <!-- <p
+          class="alert alert-error m-auto"
+          id="nameError"
+          style="display: none;"
+        >
+          Name is required
+        </p> -->
+        <!-- <label for="female" id="y" class="form-control w-75 m-auto"></label> -->
+        <p>Site URL</p>
+        <input
+          id="siteUrl"
+          placeholder="website URL"
+          type="text"
+          class="form-control w-75 m-auto"
+          name="siteurl"
+          required
+        />
+        <!-- <p
+          class="alert alert-error m-auto"
+          id="urlError"
+          style="display: none;"
+        >
+          Url Field is required
+        </p> -->
+        <!-- <label for="male" id="zz" class="form-control w-75 m-auto"></label> -->
+        <!-- <div id="validate2"></div> -->
+        <button class="btn btn-primary submit" onclick=" send()" value="Submit">
+          Submit
+        </button>
+        <!-- </form> -->
+      </div>
+    </div>
+
+    <br />
+    <div class="container">
+      <div id="data"></div>
+    </div>
+    <footer>
+      <div class="container">
+        <hr />
+        <p>© 2019 Bookmarker Inc.</p>
+      </div>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
